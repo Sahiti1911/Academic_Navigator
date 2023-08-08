@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body {
+  background-color: rgb(61, 61, 204) ;
+  font-family: poppins;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #23242a;
+  color: rgb(61, 61, 204);
+  text-align: center;
+  padding: 1rem 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+section {
+  padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+input, button {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button {
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #444;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Add any additional styling to enhance the premium look */
